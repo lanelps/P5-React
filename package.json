@@ -2,7 +2,6 @@
   "name": "P5-React",
   "version": "1.0.0",
   "description": "lanelps Personal project",
-  "main": "index.js",
   "homepage": "https://lanelps.github.io/P5-React/",
   "scripts": {
     "start": "react-scripts start",
@@ -17,5 +16,11 @@
     "react-dom": "^16.8.5",
     "react-p5-wrapper": "^0.0.4",
     "react-scripts": "^2.1.8"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
