@@ -4,7 +4,7 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>🔥react-tinderbox🔥</h1>
+        <h1>P5-React</h1>
       </React.Fragment>
     )
   }

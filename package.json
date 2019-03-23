@@ -9,10 +9,6 @@
   },
   "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
-  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
