@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate create by me",
   "main": "index.js",
-  "homepage": "http://myname.github.io/myapp",
+  "homepage": "https://lanelps.github.io/P5-React/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
