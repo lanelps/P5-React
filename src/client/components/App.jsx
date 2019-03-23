@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+import P5Wrapper from 'react-p5-wrapper'
+import '../main.css'
+import Sketchone from './Sketchone'
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <h1>P5-React</h1>
-      </React.Fragment>
+      <div>
+        <h1>React.js with P5 </h1>
+        <P5Wrapper className="sketch" sketch={Sketchone} />
+      </div>
     )
   }
 }
+
+export default App
