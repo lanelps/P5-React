@@ -1,41 +1,10 @@
-# 🔥react-tinderbox🔥
+# P5-React
 
-React boilerplate to make new projects easier to get started
+This is a personal project incorporating the p5.js librabry with React components.
 
-## This boilerplate contains
-
-### Dependencies
-
-#### React (with JSX)
+#### Built with
 
 - react
-
 - react-dom
-
-### Dev Dependencies
-
-#### Babel
-
-- @babel/cli
-
-- @babel/core
-
-- @babel/plugin-proposal-class-properties
-
-- @babel/preset-env
-
-- @babel/preset-react
-
-- babel-loader
-
-#### webpack
-
-- webpack
-
-- webpack-cli
-
-- webpack-dev-server
-
-- html-webpack-plugin
-
-created by Lane Wirihana Le Prevost-Smith
+- react-p5-wrapper
+- react-scripts
