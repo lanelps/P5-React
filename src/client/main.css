@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 30px;
+  padding: 40px;
   background-color: white;
 }
 
 .sketch {
-  margin: 20px;
-  border: 5px solid black;
+  /* margin: 20px; */
+  border: 1px solid black;
 }
