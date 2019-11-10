@@ -17,7 +17,7 @@ export default function Sketchone(p5) {
 			for (let i = 0; i < this.dotNumber; i++) {
 				let circle =
 					this.innerRaid + this.outerRaid * p5.sin(time * this.freq * i)
-				let col = p5.map(circle, 250, 250, 100, 50)
+				//let col = p5.map(circle, 250, 250, 100, 50)
 				let r = p5.map(circle, 40, 50, this.dotRaid, this.dotRaid)
 				p5.fill(this.c)
 				p5.noStroke()
@@ -47,7 +47,7 @@ export default function Sketchone(p5) {
 	let sliderSpeed
 
 	p5.setup = function() {
-		button = p5.createButton('Play/Pause')
+		button = p5.createButton('Save Image')
 		button.mousePressed(p5.saveImg)
 		button.addClass('save-image')
 
@@ -125,7 +125,7 @@ export default function Sketchone(p5) {
 			sliderSpeed.value()
 		)
 
-		p5.background(0)
+		p5.background(255)
 		disc1.display(p5)
 
 		time += timeset
