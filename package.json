@@ -1,29 +1,30 @@
 {
-  "name": "P5-React",
-  "version": "1.0.0",
-  "description": "lanelps Personal project",
-  "homepage": "https://lanelps.github.io/P5-React/",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
-  },
-  "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-p5-wrapper": "^0.0.4",
-    "react-scripts": "^2.1.8"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+	"name": "P5-React",
+	"version": "1.0.0",
+	"description": "lanelps Personal project",
+	"homepage": "https://lanelps.github.io/P5-React/",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build"
+	},
+	"author": "Lane le Prevost-Smith <lanelps@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"gh-pages": "^2.1.1",
+		"p5": "^0.10.2",
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0",
+		"react-p5-wrapper": "^2.0.0",
+		"react-scripts": "^3.2.0"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
 }
