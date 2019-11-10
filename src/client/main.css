@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-.sketch {
+canvas {
   /* margin: 20px; */
   border: 1px solid black;
 }
