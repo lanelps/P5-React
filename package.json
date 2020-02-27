@@ -16,7 +16,7 @@
 	"devDependencies": {
 		"gh-pages": "^2.1.1",
 		"p5": "^0.10.2",
-		"react": "^16.11.0",
+		"react": "^16.13.0",
 		"react-dom": "^16.11.0",
 		"react-p5-wrapper": "^2.0.0",
 		"react-scripts": "^3.2.0"
